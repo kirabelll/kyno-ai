@@ -1,0 +1,28 @@
+{
+  "name": "@kyno-ai/api",
+  "type": "module",
+  "exports": {
+    ".": {
+      "default": "./src/index.ts"
+    },
+    "./*": {
+      "default": "./src/*.ts"
+    }
+  },
+  "scripts": {},
+  "dependencies": {
+    "@kyno-ai/auth": "workspace:*",
+    "@kyno-ai/db": "workspace:*",
+    "@kyno-ai/env": "workspace:*",
+    "@trpc/client": "catalog:",
+    "@trpc/server": "catalog:",
+    "better-auth": "catalog:",
+    "dotenv": "catalog:",
+    "zod": "catalog:"
+  },
+  "devDependencies": {
+    "@kyno-ai/config": "workspace:*",
+    "@types/express": "catalog:",
+    "typescript": "catalog:"
+  }
+}

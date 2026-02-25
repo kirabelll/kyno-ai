@@ -1,0 +1,20 @@
+packages:
+  - apps/*
+  - packages/*
+
+catalog:
+  '@prisma/client': ^7.2.0
+  '@trpc/client': ^11.7.2
+  '@trpc/server': ^11.7.2
+  '@types/express': ^5.0.1
+  better-auth: ^1.4.18
+  dotenv: ^17.2.2
+  typescript: ^5
+  zod: ^4.1.13
+
+onlyBuiltDependencies:
+  - '@prisma/engines'
+  - esbuild
+  - msw
+  - prisma
+  - sharp

@@ -1,0 +1,3 @@
+{
+  "extends": "@kyno-ai/config/tsconfig.base.json"
+}

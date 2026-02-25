@@ -1,0 +1,24 @@
+{
+  "name": "@kyno-ai/auth",
+  "type": "module",
+  "exports": {
+    ".": {
+      "default": "./src/index.ts"
+    },
+    "./*": {
+      "default": "./src/*.ts"
+    }
+  },
+  "scripts": {},
+  "dependencies": {
+    "@kyno-ai/db": "workspace:*",
+    "@kyno-ai/env": "workspace:*",
+    "better-auth": "catalog:",
+    "dotenv": "catalog:",
+    "zod": "catalog:"
+  },
+  "devDependencies": {
+    "@kyno-ai/config": "workspace:*",
+    "typescript": "catalog:"
+  }
+}
